@@ -66,4 +66,8 @@ The paper's concatenation-based evidence experiment has a separate `cora-bench e
 
 Raw datasets, model weights, credentials, deployment scripts, and intermediate experiment outputs are excluded. The reader experiment is still being finalized; this checkout does not bundle incomplete results as final tables.
 
-See [CODE_MAP.md](docs/CODE_MAP.md) and [THIRD_PARTY.md](THIRD_PARTY.md). Original-code licensing is not yet specified; bundled upstream assets retain their own licenses.
+See [CODE_MAP.md](docs/CODE_MAP.md) and [THIRD_PARTY.md](THIRD_PARTY.md).
+
+## License
+
+CoRA-Bench's original code is released under the [Apache License 2.0](LICENSE). Code adapted from upstream benchmarks (`cora_bench/experiment/upstream/`, `cora_bench/experiment/audit_reference/`, and the BABILong generator and prompts in `cora_bench/data/`) keeps its original license. The NoLiMa files are for non-commercial research only. See [THIRD_PARTY.md](THIRD_PARTY.md).

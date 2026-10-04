@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=69"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,6 +7,8 @@ name = "cora-bench"
 version = "0.1.0"
 description = "Evidence preservation and reader evaluation under shared context budgets"
 readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 requires-python = ">=3.10"
 dependencies = [
   "tiktoken>=0.7", "numpy>=1.26", "PyYAML>=5.4", "rank-bm25>=0.2.2",
