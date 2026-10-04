@@ -1,0 +1,18 @@
+{
+    "model": "gemini-2.5-flash-preview-05-20",
+    "api_key": "EMPTY",
+    "api_url": "EMPTY",
+    "project_ID": "[[PROJECT_ID]]",
+    "location": "[[SELECTED_LOCATION]]",
+    "api_provider": "gemini",
+    "http_timeout": 30,
+    "retry_max_delay": 60,
+    "retry_multiplier": 1,
+    "retry_timeout": 300,
+    "max_tokens": 192,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "thinking_budget": 0,
+    "tokenizer_type": "huggingface",
+    "tokenizer_model": "google/gemma-3-4b-it"
+}

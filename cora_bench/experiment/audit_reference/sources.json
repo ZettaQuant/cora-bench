@@ -1,0 +1,12 @@
+{
+  "babilong_metrics": {
+    "url": "https://raw.githubusercontent.com/booydar/babilong/7a6efee29f5cac03c3c410e6799c80fd2ffe3610/babilong/metrics.py",
+    "sha256": "f77c139809690588f85ed29c1c93f22394c6b48b1fdc8afeaaa5d0969d973daf"
+  },
+  "materialized_input_sha256": {
+    "babilong": "1e1edbf18769600ba935df4a8c516ec5a26066dd60855058c474104e9123e8e2",
+    "loong": "bfd8581fdc0de26411f31178bacd961c10236154f78a3b77c3d63cf9c667a0c6",
+    "nolima": "c2eb0818cfdd8941dc30c16fe4065e29ed1bd6323ef305de6cc94953cff0cbb7",
+    "longmemeval": "fad80d51c5e41900bea0abc5169f1d794fb76ad7b47b314978329097a276587f"
+  }
+}

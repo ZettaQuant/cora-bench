@@ -1,0 +1,26 @@
+{
+  "repository": "adobe-research/NoLiMa",
+  "commit": "cb14780b249fecf2851127b2101a062c1b2c6430",
+  "files": {
+    "evaluation__async_evaluate.py": {
+      "url": "https://raw.githubusercontent.com/adobe-research/NoLiMa/cb14780b249fecf2851127b2101a062c1b2c6430/evaluation/async_evaluate.py",
+      "sha256": "78f61137f1b23f880540e040ca09a3db726a6e81e252cd346dd60589bedb85b7"
+    },
+    "evaluation__async_api_connector.py": {
+      "url": "https://raw.githubusercontent.com/adobe-research/NoLiMa/cb14780b249fecf2851127b2101a062c1b2c6430/evaluation/async_api_connector.py",
+      "sha256": "4c3d34b78b887f459ea7e43d6e63c87a7a67cdaa74063524a1fa3a94d3e96450"
+    },
+    "evaluation__model_configs__gemini_2.5_flash.json": {
+      "url": "https://raw.githubusercontent.com/adobe-research/NoLiMa/cb14780b249fecf2851127b2101a062c1b2c6430/evaluation/model_configs/gemini_2.5_flash.json",
+      "sha256": "4d4c297316c0c153333d2adefabd786a23a8cbf2ddcc745e4531d88438882bec"
+    },
+    "evaluation__run_config__multi_test_config_book_32K.yaml": {
+      "url": "https://raw.githubusercontent.com/adobe-research/NoLiMa/cb14780b249fecf2851127b2101a062c1b2c6430/evaluation/run_config/multi_test_config_book_32K.yaml",
+      "sha256": "cc182fec8000c50773e49b8cfb8c485c3be2ae01337f574efab93add3ebe0ecc"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/adobe-research/NoLiMa/cb14780b249fecf2851127b2101a062c1b2c6430/LICENSE",
+      "sha256": "8638b5a5beb5e1cdf06a09512d23268358b64f646775581d8276e47329e0aa06"
+    }
+  }
+}

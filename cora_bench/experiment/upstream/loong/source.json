@@ -1,0 +1,18 @@
+{
+  "repository": "MozerWang/Loong",
+  "commit": "6d2115b8b48a3d19412ccb52a0c9c4ee37869af4",
+  "files": {
+    "src__utils__prompt.py": {
+      "url": "https://raw.githubusercontent.com/MozerWang/Loong/6d2115b8b48a3d19412ccb52a0c9c4ee37869af4/src/utils/prompt.py",
+      "sha256": "459b41566258d59f41ae4d3a707bf45c09e275c4723cc20e9ad8f79c8bbc682d"
+    },
+    "src__utils__metric.py": {
+      "url": "https://raw.githubusercontent.com/MozerWang/Loong/6d2115b8b48a3d19412ccb52a0c9c4ee37869af4/src/utils/metric.py",
+      "sha256": "cb3c4f71cdee287fdbe5195ece3dadf0bc63a4976c6a4d7cf13c4686b37829dc"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/MozerWang/Loong/6d2115b8b48a3d19412ccb52a0c9c4ee37869af4/LICENSE",
+      "sha256": "7581ba2e287de18fb2f42186a121d72692d5bf5811cb9c77fbac1b2c12cea943"
+    }
+  }
+}

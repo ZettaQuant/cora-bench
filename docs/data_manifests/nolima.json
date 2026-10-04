@@ -1,0 +1,22 @@
+{
+  "source": "amodaresi/NoLiMa needle_set.json + haystack/rand_shuffle_long",
+  "license": "Adobe Research (non-commercial research)",
+  "note": "CUSTOM fixed-source selection diagnostic; NOT an official NoLiMa run (official: 26 placements, token-depth, base-length normalization). Primary unit = semantic test id (depths + haystacks are repeated measures).",
+  "haystack_tokens": 130000,
+  "depths": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "n_haystacks": 5,
+  "n": 870,
+  "needleset_sha256": "b197f5633668be11aa5855144716b3009d6246c5fb05a508c37db0d08303aa99",
+  "haystack_sha256": {
+    "long_1.txt": "aebd547d47037a6e7f7b8d38685960c57a19d501fb225346d16c539e415404e2",
+    "long_2.txt": "8aad88a1797fba3bdc4f55005ee1d498ee5ab5c07336e9c7f200c2a7da8ea621",
+    "long_3.txt": "dfaf87a1f7137c17162d16f856f4212210f35c637378588034b360e27c58bee9",
+    "long_4.txt": "79723fa4e204c6893968af86faae5d0b9f2c6a004ee5c6fb9088132f69dc1d2e",
+    "long_5.txt": "ce305d140560d89c477ffd5b7dd9e3790c68bdfef7aaf15af9bda184d4900141"
+  },
+  "input_sha256": "c2eb0818cfdd8941dc30c16fe4065e29ed1bd6323ef305de6cc94953cff0cbb7"
+}

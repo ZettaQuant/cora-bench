@@ -1,0 +1,6 @@
+# Recorded BABILong generation packages; remaining dependencies were not fully captured.
+datasets==5.0.1
+transformers==5.15.0
+tiktoken==0.14.0
+torch==2.13.0
+nltk==3.10.3

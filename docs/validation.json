@@ -1,0 +1,52 @@
+{
+  "offline_tests": {
+    "passed": 59,
+    "skipped": 1,
+    "skip_reason": "BABILong integration requires separately prepared data in this checkout"
+  },
+  "data_validation": {
+    "files_checked": 3819,
+    "errors": 0,
+    "input_hashes_match_frozen_experiment": true
+  },
+  "scientific_code": {
+    "equivalent_files": [
+      "cora_bench/methods/__init__.py",
+      "cora_bench/methods/base.py",
+      "cora_bench/methods/bm25.py",
+      "cora_bench/methods/dense.py",
+      "cora_bench/methods/dense_rerank.py",
+      "cora_bench/methods/full_context.py",
+      "cora_bench/methods/llmlingua2.py",
+      "cora_bench/methods/provence.py",
+      "cora_bench/methods/truncation.py",
+      "cora_bench/experiment/packing.py",
+      "cora_bench/experiment/prompts.py",
+      "cora_bench/experiment/score_answers.py",
+      "cora_bench/experiment/generate_answers.py",
+      "cora_bench/experiment/select_context.py",
+      "cora_bench/experiment/summarize_results.py",
+      "cora_bench/experiment/cpu_latency.py",
+      "cora_bench/experiment/stream.py",
+      "cora_bench/experiment/retry.py",
+      "cora_bench/experiment/judge_cache.py",
+      "cora_bench/experiment/audit_results.py"
+    ],
+    "comparison": "Executable AST after reversing documented module renames, excluding docstrings and normalizing import formatting",
+    "third_party_sources_byte_identical": true
+  },
+  "limitations": [
+    "No paid API or GPU inference was repeated from this checkout.",
+    "Dataset generation environments and all immutable model weight revisions were not fully captured.",
+    "Observed selector package versions are constraints, not a complete cross-platform lockfile."
+  ],
+  "wheel": {
+    "build_passed": true,
+    "resources_verified": true,
+    "installed_package_smoke_passed": true
+  },
+  "privacy": {
+    "files_scanned": 137,
+    "private_patterns_found": 0
+  }
+}

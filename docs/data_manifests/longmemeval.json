@@ -1,0 +1,8 @@
+{
+  "source": "xiaowu0162/longmemeval-cleaned:longmemeval_s_cleaned.json",
+  "n": 500,
+  "tokenizer": "cl100k_base",
+  "visible_session_ids": "neutral sequential (no answer_* leak)",
+  "abstention": "official _abs question-id suffix",
+  "input_sha256": "fad80d51c5e41900bea0abc5169f1d794fb76ad7b47b314978329097a276587f"
+}

@@ -1,0 +1,11 @@
+model_name: "gpt_4o_20241120"
+model_configs_dir: "./model_configs/"
+needle_set_path: "../data/needlesets/needle_set.json"
+haystack_dir: "../data/haystack/rand_shuffle"
+parent_results_dir: "./results_gpt_4o_20241120/CL32K/"
+context_length: 32000
+document_depth_percent_min: 0
+document_depth_percent_max: 100
+document_depth_percent_intervals: 26
+metric: contains
+use_default_system_prompt: true

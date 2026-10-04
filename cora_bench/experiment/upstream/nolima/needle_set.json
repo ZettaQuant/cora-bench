@@ -1,0 +1,238 @@
+[
+    {
+        "id": "0401",
+        "reasoning_type": "world_knowledge",
+        "system_prompt": "",
+        "task_template": "You will answer a question based on the following book snippet:\n\n{haystack}\n\nUse the information provided in the book snippet to answer the question. Your answer should be short and based on either explicitly stated facts or strong, logical inferences.\n\nQuestion: {question}\n\n Return only the final answer with no additional explanation or reasoning.",
+        "needle": "Actually, {CHAR} lives next to {1}.",
+        "questions": {
+            "onehop": "Which character has been to {2}?",
+            "twohop": "Which character has been to {3}?"
+        },
+        "character_set": ["Yuki","Stuart", "Katie","Veronica","Gary", "Megan","Calvin","Mandy","Diana","Caleb"],
+        "tests": {
+            "T17_C02": {
+                "input_args": ["the Kiasma museum", "Helsinki", "Uusimaa"]
+            },
+            "T15_C02": {
+                "input_args": ["the European Central Bank", "Frankfurt", "Germany"]
+            },
+            "T16_C02": {
+                "input_args": ["the Semper Opera House", "Dresden", "the state of Saxony"]
+            }
+        }
+    },
+    {
+        "id": "0401Inv",
+        "reasoning_type": "world_knowledge",
+        "system_prompt": "",
+        "task_template": "You will answer a question based on the following book snippet:\n\n{haystack}\n\nUse the information provided in the book snippet to answer the question. Your answer should be short and based on either explicitly stated facts or strong, logical inferences.\n\nQuestion: {question}\n\n Return only the final answer with no additional explanation or reasoning.",
+        "needle": "{1} is next to where {CHAR} lives.",
+        "questions": {
+            "onehop": "Which character has been to {2}?",
+            "twohop": "Which character has been to {3}?"
+        },
+        "character_set": ["Yuki","Stuart", "Katie","Veronica","Gary", "Megan","Calvin","Mandy","Diana","Caleb"],
+        "tests": {
+            "T17_C02": {
+                "input_args": ["The Kiasma museum", "Helsinki", "Uusimaa"]
+            },
+            "T15_C02": {
+                "input_args": ["The European Central Bank", "Frankfurt", "Germany"]
+            },
+            "T16_C02": {
+                "input_args": ["The Semper Opera House", "Dresden", "the state of Saxony"]
+            }
+        }
+    },
+    {
+        "id": "0402",
+        "reasoning_type": "commonsense_knowledge",
+        "system_prompt": "",
+        "task_template": "You will answer a question based on the following book snippet:\n\n{haystack}\n\nUse the information provided in the book snippet to answer the question. Your answer should be short and based on either explicitly stated facts or strong, logical inferences.\n\nQuestion: {question}\n\n Return only the final answer with no additional explanation or reasoning.",
+        "needle": "A message came in from {CHAR} saying, \"I'm lactose intolerant,\" and nothing more.",
+        "character_set": ["Yuki","Stuart", "Katie","Veronica","Gary", "Megan","Calvin","Mandy","Diana","Caleb"],
+        "questions": {
+            "onehop": "Which character cannot drink {1}?",
+            "twohop": "Which character cannot drink {2}?"
+        },
+        "tests": {
+            "T01_C02": {
+                "input_args": ["milk", "a cappuccino"]
+            },
+            "T04_C02": {
+                "input_args": ["milk", "a caffè mocha"]
+            }
+        }
+    },
+    {
+        "id": "0402Inv",
+        "reasoning_type": "commonsense_knowledge",
+        "system_prompt": "",
+        "task_template": "You will answer a question based on the following book snippet:\n\n{haystack}\n\nUse the information provided in the book snippet to answer the question. Your answer should be short and based on either explicitly stated facts or strong, logical inferences.\n\nQuestion: {question}\n\n Return only the final answer with no additional explanation or reasoning.",
+        "needle": "A message came in saying, \"I'm lactose intolerant,\" from {CHAR}.",
+        "character_set": ["Yuki","Stuart", "Katie","Veronica","Gary", "Megan","Calvin","Mandy","Diana","Caleb"],
+        "questions": {
+            "onehop": "Which character cannot drink {1}?",
+            "twohop": "Which character cannot drink {2}?"
+        },
+        "tests": {
+            "T01_C02": {
+                "input_args": ["milk", "a cappuccino"]
+            },
+            "T04_C02": {
+                "input_args": ["milk", "a caffè mocha"]
+            }
+        }
+    },
+    {
+        "id": "0405",
+        "reasoning_type": "commonsense_knowledge",
+        "system_prompt": "",
+        "task_template": "You will answer a question based on the following book snippet:\n\n{haystack}\n\nUse the information provided in the book snippet to answer the question. Your answer should be short and based on either explicitly stated facts or strong, logical inferences.\n\nQuestion: {question}\n\n Return only the final answer with no additional explanation or reasoning.",
+        "needle": "Then {CHAR} mentioned that he has been vegan for years.",
+        "character_set": ["Yuki","Stuart", "Katie","Veronica","Gary", "Megan","Calvin","Mandy","Diana","Caleb"],
+        "questions": {
+            "onehop": "Which character cannot eat {1}?",
+            "twohop": "Which character cannot eat {2}?"
+        },
+        "tests": {
+            "T01_C02": {
+                "input_args": ["fish-based meals", "Brandade"]
+            },
+            "T04_C02": {
+                "input_args": ["egg-based meals", "an omelette"]
+            }
+        }
+    },
+    {
+        "id": "0405Inv",
+        "reasoning_type": "commonsense_knowledge",
+        "system_prompt": "",
+        "task_template": "You will answer a question based on the following book snippet:\n\n{haystack}\n\nUse the information provided in the book snippet to answer the question. Your answer should be short and based on either explicitly stated facts or strong, logical inferences.\n\nQuestion: {question}\n\n Return only the final answer with no additional explanation or reasoning.",
+        "needle": "There was a vegan guest, named {CHAR}.",
+        "character_set": ["Yuki","Stuart", "Katie","Veronica","Gary", "Megan","Calvin","Mandy","Diana","Caleb"],
+        "questions": {
+            "onehop": "Which character cannot eat {1}?",
+            "twohop": "Which character cannot eat {2}?"
+        },
+        "tests": {
+            "T01_C02": {
+                "input_args": ["fish-based meals", "Brandade"]
+            },
+            "T04_C02": {
+                "input_args": ["egg-based meals", "an omelette"]
+            }
+        }
+    },
+    {
+        "id": "0408",
+        "reasoning_type": "world_knowledge",
+        "system_prompt": "",
+        "task_template": "You will answer a question based on the following book snippet:\n\n{haystack}\n\nUse the information provided in the book snippet to answer the question. Your answer should be short and based on either explicitly stated facts or strong, logical inferences.\n\nQuestion: {question}\n\n Return only the final answer with no additional explanation or reasoning.",
+        "needle": "In 2013, after waiting in line for hours, {CHAR} finally saw the original {1} painting up close.",
+        "character_set": ["Yuki","Stuart", "Katie","Veronica","Gary", "Megan","Calvin","Mandy","Diana","Caleb"],
+        "questions": {
+            "onehop": "Which character has been to {2}?",
+            "twohop": "Which character has been to {3}?",
+            "twohop2": "Which character has been to {4}?"
+        },
+        "tests": {
+            "T01_C02": {
+                "input_args": ["'Girl with a Pearl Earring'", "the Mauritshuis", "The Hague", "the Netherlands"]
+            },
+            "T04_C02": {
+                "input_args": ["'Garden of Earthly Delights'", "the Museo del Prado", "Madrid", "Spain"]
+            },
+            "T05_C02": {
+                "input_args": ["'Impression, Sunrise'", "the Musée Marmottan Monet", "Paris", "France"]
+            }
+        }
+    },
+    {
+        "id": "0408Inv",
+        "reasoning_type": "world_knowledge",
+        "system_prompt": "",
+        "task_template": "You will answer a question based on the following book snippet:\n\n{haystack}\n\nUse the information provided in the book snippet to answer the question. Your answer should be short and based on either explicitly stated facts or strong, logical inferences.\n\nQuestion: {question}\n\n Return only the final answer with no additional explanation or reasoning.",
+        "needle": "In 2013, the original {1} painting was seen up close by {CHAR}, finally, after waiting in line for hours.",
+        "character_set": ["Yuki","Stuart", "Katie","Veronica","Gary", "Megan","Calvin","Mandy","Diana","Caleb"],
+        "questions": {
+            "onehop": "Which character has been to {2}?",
+            "twohop": "Which character has been to {3}?",
+            "twohop2": "Which character has been to {4}?"
+        },
+        "tests": {
+            "T01_C02": {
+                "input_args": ["'Girl with a Pearl Earring'", "the Mauritshuis", "The Hague", "the Netherlands"]
+            },
+            "T04_C02": {
+                "input_args": ["'Garden of Earthly Delights'", "the Museo del Prado", "Madrid", "Spain"]
+            },
+            "T05_C02": {
+                "input_args": ["'Impression, Sunrise'", "the Musée Marmottan Monet", "Paris", "France"]
+            }
+        }
+    },
+    {
+        "id": "0409Inv",
+        "reasoning_type": "world_knowledge",
+        "system_prompt": "",
+        "task_template": "You will answer a question based on the following book snippet:\n\n{haystack}\n\nUse the information provided in the book snippet to answer the question. Your answer should be short and based on either explicitly stated facts or strong, logical inferences.\n\nQuestion: {question}\n\n Return only the final answer with no additional explanation or reasoning.",
+        "needle": "There was an engineer living in {1}, named {CHAR}.",
+        "character_set": ["Yuki","Stuart", "Katie","Veronica","Gary", "Megan","Calvin","Mandy","Diana","Caleb"],
+        "questions": {
+            "onehop": "Which character has been to {2}?"
+        },
+        "tests": {
+            "T09_C02": {
+                "input_args": ["Witbank", "South Africa"]
+            },
+            "T10_C02": {
+                "input_args": ["Calvinia", "South Africa"]
+            },
+            "T04_C02": {
+                "input_args": ["Firminy", "France"]
+            },
+            "T05_C02": {
+                "input_args": ["Vierzon", "France"]
+            },
+            "T07_C02": {
+                "input_args": ["Borujerd", "Iran"]
+            },
+            "T08_C02": {
+                "input_args": ["Lahijan", "Iran"]
+            }
+        }
+    },
+    {
+        "id": "0409",
+        "reasoning_type": "world_knowledge",
+        "system_prompt": "",
+        "task_template": "You will answer a question based on the following book snippet:\n\n{haystack}\n\nUse the information provided in the book snippet to answer the question. Your answer should be short and based on either explicitly stated facts or strong, logical inferences.\n\nQuestion: {question}\n\n Return only the final answer with no additional explanation or reasoning.",
+        "needle": "There was {CHAR} who was an engineer living in {1}.",
+        "character_set": ["Yuki","Stuart", "Katie","Veronica","Gary", "Megan","Calvin","Mandy","Diana","Caleb"],
+        "questions": {
+            "onehop": "Which character has been to {2}?"
+        },
+        "tests": {
+            "T09_C02": {
+                "input_args": ["Witbank", "South Africa"]
+            },
+            "T10_C02": {
+                "input_args": ["Calvinia", "South Africa"]
+            },
+            "T04_C02": {
+                "input_args": ["Firminy", "France"]
+            },
+            "T05_C02": {
+                "input_args": ["Vierzon", "France"]
+            },
+            "T07_C02": {
+                "input_args": ["Borujerd", "Iran"]
+            },
+            "T08_C02": {
+                "input_args": ["Lahijan", "Iran"]
+            }
+        }
+    }
+]

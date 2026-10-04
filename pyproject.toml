@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cora-bench"
+version = "0.1.0"
+description = "Evidence preservation and reader evaluation under shared context budgets"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "tiktoken>=0.7", "numpy>=1.26", "PyYAML>=5.4", "rank-bm25>=0.2.2",
+  "requests>=2.25", "google-auth>=2.29", "matplotlib>=3.8"
+]
+
+[project.optional-dependencies]
+gpu = ["torch>=2.4", "transformers>=4.51", "sentence-transformers>=3", "accelerate>=0.30", "llmlingua>=0.2.2", "nltk>=3.8", "einops>=0.8"]
+data = ["datasets>=2.19", "pyarrow>=16", "torch>=2.4", "transformers>=4.51", "nltk>=3.8", "pandas>=2.2"]
+evidence = ["pandas>=2.2"]
+dev = ["pytest>=8", "ruff>=0.11", "build>=1"]
+
+[project.scripts]
+cora-bench = "cora_bench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cora_bench*"]
+
+[tool.setuptools.package-data]
+"cora_bench.experiment" = ["*.json", "upstream/*/*", "audit_reference/*"]
+"cora_bench.config" = ["pricing/*.yaml", "*.json"]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = ["cora_bench/experiment/upstream", "cora_bench/experiment/audit_reference", "cora_bench/data/_babilong_gen.py", "cora_bench/data/babilong_prompts.py"]
+
+[tool.pytest.ini_options]
+testpaths = ["cora_bench/tests", "cora_bench/experiment"]

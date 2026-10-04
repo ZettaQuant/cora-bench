@@ -1,0 +1,22 @@
+{
+  "reference_prompts": "Pinned upstream task templates in upstream/; LOONG original per-row templates in loong_templates.json; BABILong vendored task prompts",
+  "reader": "gemini-2.5-flash-lite",
+  "temperature": 0,
+  "thinking_budget": 0,
+  "max_output_tokens": 1024,
+  "seeds": [
+    5768,
+    78516,
+    944601
+  ],
+  "longmemeval_judge": "gpt-4o-2024-08-06",
+  "longmemeval_scoring": "Official question-type/abstention prompts, temperature 0, max_tokens 10; reject malformed judgments",
+  "loong_judge": "gpt-5.5-2026-04-23",
+  "loong_scoring": "Exact original rubric; adapted pinned judge, reasoning_effort none, output cap 512. Perfect Rate requires score exactly 100; mean score also reported.",
+  "nolima_scoring": "Official case-sensitive contains metric on the paper's frozen diagnostic subset, not official base-length-normalized NoLiMa",
+  "babilong_scoring": "Official task-label first-sentence compare_answers behavior",
+  "judge_reuse": "Identical question, gold answer and reader response reuse one cached judgment; no independent judge-repeat uncertainty is claimed.",
+  "latency": "Fresh online pass on 30 prespecified matched questions per cell, one seed 5768, concurrency 8; selector measured with fresh data caches at all three seeds; cold model load separate",
+  "failure_policy": "Missing answers are incorrect in full-cohort coverage reports; malformed or unavailable judges remain explicitly unresolved rather than silently omitted",
+  "budget_note": "All requests reserve native-count-based maximum reader charges. Transient or metadata-incomplete streams have at most eight attempts with shared backoff. Previous uncertain reservations remain counted toward the cap. Experiment billing differs from hypothetical uncached per-query list-price serving cost."
+}

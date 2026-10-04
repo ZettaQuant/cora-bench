@@ -1,0 +1,450 @@
+{
+  "cora_bench/__init__.py": {
+    "source": "cora_bench/__init__.py",
+    "source_sha256": "38643bb08205563f20f849634510cce8aa744a9db6e105c8c7460281a097c722"
+  },
+  "cora_bench/analysis/__init__.py": {
+    "source": "cora_bench/analysis/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/analysis/aggregate.py": {
+    "source": "cora_bench/analysis/aggregate.py",
+    "source_sha256": "32a57fa0af9024799d2daefef287610528ddbf04e1d2348361c295d8170e2fec"
+  },
+  "cora_bench/analysis/dataset_report.py": {
+    "source": "cora_bench/analysis/dataset_report.py",
+    "source_sha256": "c102a907f99c509fa5b93cc04692c7f7fbd99aede5213ab4b02e4a313afde0fd"
+  },
+  "cora_bench/analysis/paired_statistics.py": {
+    "source": "cora_bench/analysis/paired_statistics.py",
+    "source_sha256": "c664365b3a3f2475acad91ba51eb816bb9e436b8fc3af57b2f5625445d28fe47"
+  },
+  "cora_bench/analysis/paper_tables.py": {
+    "source": "cora_bench/analysis/paper_tables.py",
+    "source_sha256": "49aeefd4d2f449a8293f4bb05708bac3f48f41d8f095ba799ab61048db481d0a"
+  },
+  "cora_bench/budgets/__init__.py": {
+    "source": "cora_bench/budgets/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/budgets/token_budget.py": {
+    "source": "cora_bench/budgets/token_budget.py",
+    "source_sha256": "f071403bae01a25e76ed171c3eec86100ddf0b29b732507d6fde108667dffc36"
+  },
+  "cora_bench/chunking/__init__.py": {
+    "source": "cora_bench/chunking/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/chunking/base.py": {
+    "source": "cora_bench/chunking/base.py",
+    "source_sha256": "c8c1939f53f8981bf128b0525b2b144315b735f7dee205ebaccf219aecfee745"
+  },
+  "cora_bench/chunking/token_chunker.py": {
+    "source": "cora_bench/chunking/token_chunker.py",
+    "source_sha256": "f06a47753b3b6b25222481c0223f4b48e53aea369094d2ca36a2d19e920411a0"
+  },
+  "cora_bench/config/__init__.py": {
+    "source": "cora_bench/config/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/config/pricing/pricing_2026_09.yaml": {
+    "source": "cora_bench/config/pricing/pricing_2026_09.yaml",
+    "source_sha256": "bc174de7d54d904eb9be3223c31fe9d45268b988b2b51f27795b17c061daf988"
+  },
+  "cora_bench/config/schema.py": {
+    "source": "cora_bench/config/schema.py",
+    "source_sha256": "115bc7ca8b3f3dd0499b0177dd79177e5c4db36a7d80deb717733e59eea73fac"
+  },
+  "cora_bench/data/__init__.py": {
+    "source": "cora_bench/data/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/data/_babilong_gen.py": {
+    "source": "cora_bench/data/_babilong_gen.py",
+    "source_sha256": "ee8305857ee1640551542cf3dd457d834ddc97047754521ff29b09a81c79a240"
+  },
+  "cora_bench/data/babilong.py": {
+    "source": "cora_bench/data/babilong.py",
+    "source_sha256": "d361dab1acf2b356475a49fff120b6c24bdc0ae54737100273cd0cc3d8a28ffd"
+  },
+  "cora_bench/data/babilong_prompts.py": {
+    "source": "cora_bench/data/babilong_prompts.py",
+    "source_sha256": "dd54683023efde765c82c946b6ecc938dcdba7abb162cdecf2e7bf3fdde31eb1"
+  },
+  "cora_bench/data/base.py": {
+    "source": "cora_bench/data/base.py",
+    "source_sha256": "64abdd4c745e39d2f94bbdabe40592f0bd12708dd7f26da5e7ada79f801192d9"
+  },
+  "cora_bench/data/longmemeval.py": {
+    "source": "cora_bench/data/longmemeval.py",
+    "source_sha256": "d3ad4a638cf82039df9cb26f0dd9fda712c5bda798961488e371132bb0d9c43a"
+  },
+  "cora_bench/data/loong.py": {
+    "source": "cora_bench/data/loong.py",
+    "source_sha256": "f35a4674d655294c83bd1543ebd8051b851dc1021c093d4fdadd15854d8b5889"
+  },
+  "cora_bench/data/nolima.py": {
+    "source": "cora_bench/data/nolima.py",
+    "source_sha256": "2bc180b86d9b18263c7454c997a5822f6752552acf4ff3c8847de97d31036a79"
+  },
+  "cora_bench/data/registry.py": {
+    "source": "cora_bench/data/registry.py",
+    "source_sha256": "da1d790bd6e6319a9c7c22f706ff8f342822451db2b2e38098eaaee2ea0bd72c"
+  },
+  "cora_bench/evaluation/__init__.py": {
+    "source": "cora_bench/evaluation/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/evaluation/evidence_metrics.py": {
+    "source": "cora_bench/evaluation/evidence_metrics.py",
+    "source_sha256": "06a74d02ab2ae36a0902ecebbebf19bc49ce29c6256452199c05002c93b4eaf1"
+  },
+  "cora_bench/evaluation/loong_evidence.py": {
+    "source": "cora_bench/evaluation/loong_evidence.py",
+    "source_sha256": "3a32cd9ea43a4e4318b32c667ea21070ba502dd29951916185d137b3d3259831"
+  },
+  "cora_bench/evaluation/loong_value_match.py": {
+    "source": "cora_bench/evaluation/loong_value_match.py",
+    "source_sha256": "72188b1646490b68e30ceee3c85b9261fc465f1c4cf317996b944becbe12a88b"
+  },
+  "cora_bench/evaluation/provenance.py": {
+    "source": "cora_bench/evaluation/provenance.py",
+    "source_sha256": "2ea71db39dd7b308ef74c1bac8885f086c64ffb5fbba93acb514aa5a1bb2016b"
+  },
+  "cora_bench/evaluation/resource_metrics.py": {
+    "source": "cora_bench/evaluation/resource_metrics.py",
+    "source_sha256": "fba4a523f99051d6d4938bd71f194cd19e3eeddc74bd1a202dbe49b548abfd63"
+  },
+  "cora_bench/evaluation/selection.py": {
+    "source": "cora_bench/evaluation/selection.py",
+    "source_sha256": "3876e2f6b506b2df4932c6bb957835a0d5378406b1d5ea9708f177e8909889f1"
+  },
+  "cora_bench/experiment/__init__.py": {
+    "source": "cora_bench/followup/__init__.py",
+    "source_sha256": "25e134f9abd7cf5110234ae09eed90f4cc6c8dc8a301142413192cd3bee501a0"
+  },
+  "cora_bench/experiment/api.py": {
+    "source": "cora_bench/followup/api.py",
+    "source_sha256": "ec65d209c2f802d6b0f97e9583c6cac6bb429c224c537583ebd4f82bd02f2e05"
+  },
+  "cora_bench/experiment/audit_reference/babilong_metrics.py": {
+    "source": "cora_bench/followup/audit_reference/babilong_metrics.py",
+    "source_sha256": "f77c139809690588f85ed29c1c93f22394c6b48b1fdc8afeaaa5d0969d973daf"
+  },
+  "cora_bench/experiment/audit_reference/sources.json": {
+    "source": "cora_bench/followup/audit_reference/sources.json",
+    "source_sha256": "14edf141a955c1e2c99ea6f9b27cc5c5a00cf88eba0faa04ecf6d02877b2e78f"
+  },
+  "cora_bench/experiment/cpu_latency.py": {
+    "source": "cora_bench/followup/cpu_latency.py",
+    "source_sha256": "59e56418b33f91a080cc8bdc8174519297aadc20d9769dd13019b7ab29b6d98e"
+  },
+  "cora_bench/experiment/audit_results.py": {
+    "source": "cora_bench/followup/interim_audit.py",
+    "source_sha256": "52f2f81d4be5c7660b6ae4aa4d533117c5bf7b7025f9b471615fe44f04b78e2e"
+  },
+  "cora_bench/experiment/score_answers.py": {
+    "source": "cora_bench/followup/judge.py",
+    "source_sha256": "e0c32c2c5547a620684077d53c05235c6cdb1a0188ba5a6620692ec0aee343a7"
+  },
+  "cora_bench/experiment/judge_cache.py": {
+    "source": "cora_bench/followup/judge_cache.py",
+    "source_sha256": "77c1f35c528519253bb88f523976278d2fb317769973f5e39f3461f2c3f95277"
+  },
+  "cora_bench/experiment/loong_templates.json": {
+    "source": "cora_bench/followup/loong_templates.json",
+    "source_sha256": "3c4a7f98fc6b0bdc2e413807d4b5d3378942bec2c5e3652dd6e87fc633201972"
+  },
+  "cora_bench/experiment/packing.py": {
+    "source": "cora_bench/followup/packing.py",
+    "source_sha256": "223b9b8b8c3b561587e1b6d7e8fd3425ab09f0c7da4a88dedd5a77eee2d2b674"
+  },
+  "cora_bench/experiment/prompts.py": {
+    "source": "cora_bench/followup/prompts.py",
+    "source_sha256": "8091a402849fc8637d7a431da1d251226b8e2a7e966308ba0d9c7556e37da4a2"
+  },
+  "cora_bench/experiment/protocol.json": {
+    "source": "cora_bench/followup/protocol.json",
+    "source_sha256": "b38141cb13b4262f920776851ea728ed528a9b2f160c27fa75a1ccfc6850299d"
+  },
+  "cora_bench/experiment/generate_answers.py": {
+    "source": "cora_bench/followup/reader.py",
+    "source_sha256": "d3ebea01183c2f96532059a3fa3ab0d7fdf0682e8860b9f88c2e129b8e502ae7"
+  },
+  "cora_bench/experiment/reader_protocol.json": {
+    "source": "cora_bench/followup/reader_protocol.json",
+    "source_sha256": "5366b7cbd7d5a67ad218ddce3b7c4e6779cfc0486f01863a99a16683d3e40bbf"
+  },
+  "cora_bench/experiment/summarize_results.py": {
+    "source": "cora_bench/followup/report.py",
+    "source_sha256": "3f59fd7534b408b94e3c0c84f6d8d502992e08237a39af1264e095f49ebeb2a1"
+  },
+  "cora_bench/experiment/retry.py": {
+    "source": "cora_bench/followup/retry.py",
+    "source_sha256": "477ac8060abcea2687622cf2c09db8b1005dde1df03a5fceb5e67696d332153d"
+  },
+  "cora_bench/experiment/select_context.py": {
+    "source": "cora_bench/followup/select.py",
+    "source_sha256": "70037c5c640d161f4c1fffb619dc1ab5f586f285c87238e9461d777b97280c82"
+  },
+  "cora_bench/experiment/stream.py": {
+    "source": "cora_bench/followup/stream.py",
+    "source_sha256": "b4edef31686aac72a65f4ae586083244f613225863c51a05f4e9470a4b85555d"
+  },
+  "cora_bench/experiment/run_pipeline.py": {
+    "source": "cora_bench/followup/supervisor.py",
+    "source_sha256": "9e578aae487752fbe0b74c04f51148e6b45263d922a155fa18c0fdb706bf85f2"
+  },
+  "cora_bench/experiment/test_audit_results.py": {
+    "source": "cora_bench/followup/test_interim_audit.py",
+    "source_sha256": "7f2dc713c313a1682918f170b7e9d7f143f870252e58c5533a82efda4f359b66"
+  },
+  "cora_bench/experiment/test_judge_cache.py": {
+    "source": "cora_bench/followup/test_judge_cache.py",
+    "source_sha256": "551b806c9c40fe05e08635cfe90504bb492ac85c770fb2a6529bd426a2bf0b38"
+  },
+  "cora_bench/experiment/test_parallel.py": {
+    "source": "cora_bench/followup/test_parallel.py",
+    "source_sha256": "9f03945c063e02f17b963b9cf9af47d3e347000451353bb10a087d4db58030fe"
+  },
+  "cora_bench/experiment/test_protocol.py": {
+    "source": "cora_bench/followup/test_protocol.py",
+    "source_sha256": "7ed3913311a8331eb35593d09901ecaffcd7740f824d03674b2f2e2355cd26d7"
+  },
+  "cora_bench/experiment/test_reader.py": {
+    "source": "cora_bench/followup/test_reader.py",
+    "source_sha256": "becc88e116ecbe7bca79fbe97b74e0f62472812d7dda8b663004ea39b75878e2"
+  },
+  "cora_bench/experiment/test_statistics.py": {
+    "source": "cora_bench/followup/test_statistics.py",
+    "source_sha256": "da37ab1a9b8f7995d0dbd18663875e3cb38d13722f34b486ac27cc7c3932d8d3"
+  },
+  "cora_bench/experiment/test_stream.py": {
+    "source": "cora_bench/followup/test_stream.py",
+    "source_sha256": "793c42a7407a99175283b1d379c20dead5ee4c9fc1d3d8f2c25212ff5eb2c5a2"
+  },
+  "cora_bench/experiment/upstream/babilong/LICENSE": {
+    "source": "cora_bench/followup/upstream/babilong/LICENSE",
+    "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "cora_bench/experiment/upstream/babilong/source.json": {
+    "source": "cora_bench/followup/upstream/babilong/source.json",
+    "source_sha256": "f2a243071f138eafe6844be3ed17866de62f71319694a203346aed08d032e263"
+  },
+  "cora_bench/experiment/upstream/longmemeval/LICENSE": {
+    "source": "cora_bench/followup/upstream/longmemeval/LICENSE",
+    "source_sha256": "d3c4b9aa54759df6ded337978a6f3b55b75615e5e4525c3b82d7e2627d4b9732"
+  },
+  "cora_bench/experiment/upstream/longmemeval/source.json": {
+    "source": "cora_bench/followup/upstream/longmemeval/source.json",
+    "source_sha256": "472dad797dbba7e2f29f188b0ae679a6323b96dbe687e423fe1411c47b743ff6"
+  },
+  "cora_bench/experiment/upstream/longmemeval/src__evaluation__evaluate_qa.py": {
+    "source": "cora_bench/followup/upstream/longmemeval/src__evaluation__evaluate_qa.py",
+    "source_sha256": "ecce9c4c79dc89d99534ac17b383a5cbb5b9f0c69ee98adaf0684742e3d95251"
+  },
+  "cora_bench/experiment/upstream/longmemeval/src__generation__run_generation.py": {
+    "source": "cora_bench/followup/upstream/longmemeval/src__generation__run_generation.py",
+    "source_sha256": "4f1eb3c69d7ad40f04065b9c0bc86f6582441018fc6ff751d162d66c95baf672"
+  },
+  "cora_bench/experiment/upstream/loong/LICENSE": {
+    "source": "cora_bench/followup/upstream/loong/LICENSE",
+    "source_sha256": "7581ba2e287de18fb2f42186a121d72692d5bf5811cb9c77fbac1b2c12cea943"
+  },
+  "cora_bench/experiment/upstream/loong/source.json": {
+    "source": "cora_bench/followup/upstream/loong/source.json",
+    "source_sha256": "80ef5bc8483b7fef6f2cc7bea065efbe25f78713d2239633444e1c6623f77417"
+  },
+  "cora_bench/experiment/upstream/loong/src__utils__metric.py": {
+    "source": "cora_bench/followup/upstream/loong/src__utils__metric.py",
+    "source_sha256": "cb3c4f71cdee287fdbe5195ece3dadf0bc63a4976c6a4d7cf13c4686b37829dc"
+  },
+  "cora_bench/experiment/upstream/loong/src__utils__prompt.py": {
+    "source": "cora_bench/followup/upstream/loong/src__utils__prompt.py",
+    "source_sha256": "459b41566258d59f41ae4d3a707bf45c09e275c4723cc20e9ad8f79c8bbc682d"
+  },
+  "cora_bench/experiment/upstream/nolima/LICENSE": {
+    "source": "cora_bench/followup/upstream/nolima/LICENSE",
+    "source_sha256": "8638b5a5beb5e1cdf06a09512d23268358b64f646775581d8276e47329e0aa06"
+  },
+  "cora_bench/experiment/upstream/nolima/evaluation__async_api_connector.py": {
+    "source": "cora_bench/followup/upstream/nolima/evaluation__async_api_connector.py",
+    "source_sha256": "4c3d34b78b887f459ea7e43d6e63c87a7a67cdaa74063524a1fa3a94d3e96450"
+  },
+  "cora_bench/experiment/upstream/nolima/evaluation__async_evaluate.py": {
+    "source": "cora_bench/followup/upstream/nolima/evaluation__async_evaluate.py",
+    "source_sha256": "78f61137f1b23f880540e040ca09a3db726a6e81e252cd346dd60589bedb85b7"
+  },
+  "cora_bench/experiment/upstream/nolima/evaluation__model_configs__gemini_2.5_flash.json": {
+    "source": "cora_bench/followup/upstream/nolima/evaluation__model_configs__gemini_2.5_flash.json",
+    "source_sha256": "4d4c297316c0c153333d2adefabd786a23a8cbf2ddcc745e4531d88438882bec"
+  },
+  "cora_bench/experiment/upstream/nolima/evaluation__run_config__multi_test_config_book_32K.yaml": {
+    "source": "cora_bench/followup/upstream/nolima/evaluation__run_config__multi_test_config_book_32K.yaml",
+    "source_sha256": "cc182fec8000c50773e49b8cfb8c485c3be2ae01337f574efab93add3ebe0ecc"
+  },
+  "cora_bench/experiment/upstream/nolima/needle_set.json": {
+    "source": "cora_bench/followup/upstream/nolima/needle_set.json",
+    "source_sha256": "b197f5633668be11aa5855144716b3009d6246c5fb05a508c37db0d08303aa99"
+  },
+  "cora_bench/experiment/upstream/nolima/needle_set.json.source.json": {
+    "source": "cora_bench/followup/upstream/nolima/needle_set.json.source.json",
+    "source_sha256": "61166f8b0bcdd3054c29fa2cb0c1b13b338b2d8c0c8d11a8bca653a6e7317574"
+  },
+  "cora_bench/experiment/upstream/nolima/source.json": {
+    "source": "cora_bench/followup/upstream/nolima/source.json",
+    "source_sha256": "de0e6076990479355a17ebb9ad6b7874305693a2aa719cabd13502931601c75f"
+  },
+  "cora_bench/instrumentation/__init__.py": {
+    "source": "cora_bench/instrumentation/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/instrumentation/cost.py": {
+    "source": "cora_bench/instrumentation/cost.py",
+    "source_sha256": "266617e60f4af1a29f4a494cd245fba786c180da2030524005e83dde4c8dea12"
+  },
+  "cora_bench/instrumentation/hardware.py": {
+    "source": "cora_bench/instrumentation/hardware.py",
+    "source_sha256": "d9ec33e2d6dfba5e6da7671f11a6c2556d072fc63f22e40faabae52f2c8fec79"
+  },
+  "cora_bench/instrumentation/latency.py": {
+    "source": "cora_bench/instrumentation/latency.py",
+    "source_sha256": "ef8a6e2f189f3cff5213aef52d9f86b2d021066b9fa2a996eb0a960128194f05"
+  },
+  "cora_bench/instrumentation/manifest.py": {
+    "source": "cora_bench/instrumentation/manifest.py",
+    "source_sha256": "bcb8fa28608b1e672d6aea450d7abbd32bc6dd952748fae0d0bf5b0ec57cc34d"
+  },
+  "cora_bench/instrumentation/selection_cost.py": {
+    "source": "cora_bench/instrumentation/selection_cost.py",
+    "source_sha256": "49e1b4c911550d368a104fe4d42fe60602c08aabc0980c49e8ae27758c095db5"
+  },
+  "cora_bench/methods/__init__.py": {
+    "source": "cora_bench/methods/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/methods/base.py": {
+    "source": "cora_bench/methods/base.py",
+    "source_sha256": "ebd6e59118f9340382c4dc40027a198bcb63a0410257ea901c9ab700a91565b3"
+  },
+  "cora_bench/methods/bm25.py": {
+    "source": "cora_bench/methods/bm25.py",
+    "source_sha256": "04f943c77164d8b48a47822c2a39dbbe906e8a0c81b27ebcb963a8ee11b6b1d1"
+  },
+  "cora_bench/methods/dense.py": {
+    "source": "cora_bench/methods/dense.py",
+    "source_sha256": "60e53cb79730a9574e69f7e33f10c0d5fb53f2e42397e89da318dd40daf29e5d"
+  },
+  "cora_bench/methods/dense_rerank.py": {
+    "source": "cora_bench/methods/dense_rerank.py",
+    "source_sha256": "575e743da10dcb58bd02dd7efd74781b84c6281593edac163fda6757eb79e11c"
+  },
+  "cora_bench/methods/full_context.py": {
+    "source": "cora_bench/methods/full_context.py",
+    "source_sha256": "e32708ca9c7e2138a77de6ae2770dcfdab1509115a45c7e4dbdabebcc6a957e3"
+  },
+  "cora_bench/methods/llmlingua2.py": {
+    "source": "cora_bench/methods/llmlingua2.py",
+    "source_sha256": "c5c5c1bc748d77c8fc5112f58c5a2bd15a0c1370680121e78323318eb1b5b992"
+  },
+  "cora_bench/methods/provence.py": {
+    "source": "cora_bench/methods/provence.py",
+    "source_sha256": "5e6b0c42b9c67b1b7dc6c2525e3c733356fa1a8c228392a77d4c82836b24de57"
+  },
+  "cora_bench/methods/registry.py": {
+    "source": "cora_bench/methods/registry.py",
+    "source_sha256": "a72c5c4c9caf70badd5541c36d5f1ff29f40e2cf4984c7727bccb148ad62c5c2"
+  },
+  "cora_bench/methods/truncation.py": {
+    "source": "cora_bench/methods/truncation.py",
+    "source_sha256": "0d27cb602fea63de481faa565b055679089c20cbba674aeba11ef4154c264301"
+  },
+  "cora_bench/readers/__init__.py": {
+    "source": "cora_bench/readers/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/readers/base.py": {
+    "source": "cora_bench/readers/base.py",
+    "source_sha256": "233b083d57eb06e0f7276952f9f08b52b0d0d1eb8d6b8da18dca2e1b95b3955e"
+  },
+  "cora_bench/runners/__init__.py": {
+    "source": "cora_bench/runners/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/runners/run.py": {
+    "source": "cora_bench/runners/run.py",
+    "source_sha256": "ae02e2377cb0fc52eebbd65d5252613b479066d56fc32109272f34206743308c"
+  },
+  "cora_bench/scripts/__init__.py": {
+    "source": "cora_bench/scripts/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/scripts/prepare_babilong.py": {
+    "source": "cora_bench/scripts/gen_babilong.py",
+    "source_sha256": "92b18aeb35bd89384658cc414651b43db2d3076e5c2ca10f3bd6bb2f4a7cf64b"
+  },
+  "cora_bench/scripts/prepare_nolima.py": {
+    "source": "cora_bench/scripts/gen_nolima.py",
+    "source_sha256": "b96bd50148a05a5d8681218a792deb545358569ed3ba7eec3111f8b08af69b8c"
+  },
+  "cora_bench/scripts/select_evidence.py": {
+    "source": "cora_bench/scripts/gpu_select.py",
+    "source_sha256": "579840c702876741eef9a236fd0d57e0da4164b7a8113c84024ebed4f0331b43"
+  },
+  "cora_bench/scripts/prepare_longmemeval.py": {
+    "source": "cora_bench/scripts/materialize_lme.py",
+    "source_sha256": "dd25456a68414774512a1bcb270cda435b838415d06725a450c581134d9ccc5d"
+  },
+  "cora_bench/scripts/prepare_loong.py": {
+    "source": "cora_bench/scripts/materialize_loong.py",
+    "source_sha256": "9ab933f67825ae19b4dec7893ae436b89e755bc51743cac02d605197ea33d7db"
+  },
+  "cora_bench/scripts/prepare_loong_review.py": {
+    "source": "cora_bench/scripts/prepare_loong_review.py",
+    "source_sha256": "96e772c2fdb1738cac2df19da16e1a1c6524ca57b1b48aa2255ea152ad2ed1cb"
+  },
+  "cora_bench/scripts/smoke.py": {
+    "source": "cora_bench/scripts/smoke.py",
+    "source_sha256": "cb85de779e780e51c2b14464105d9b5bfa7e2ea8c57e747e2851ce86297579cb"
+  },
+  "cora_bench/tests/__init__.py": {
+    "source": "cora_bench/tests/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/tests/test_babilong.py": {
+    "source": "cora_bench/tests/test_babilong.py",
+    "source_sha256": "ec51f732ebf844c7614fcbb5ac495c634c39a2a865b1d27fea4c5e26ab6bdf7b"
+  },
+  "cora_bench/tests/test_budget.py": {
+    "source": "cora_bench/tests/test_budget.py",
+    "source_sha256": "f0b0f8a12220d8aa7812be75b911e49de30548f855fafd56ed1bb882792b19ea"
+  },
+  "cora_bench/tests/test_evaluation_v2.py": {
+    "source": "cora_bench/tests/test_evaluation_v2.py",
+    "source_sha256": "9cf6d274c2e5ebb0cf11f7c22278d1ec71b7f5ffa2a865d9c2e0c9d1486f5b2c"
+  },
+  "cora_bench/tests/test_release.py": {
+    "source": "cora_bench/tests/test_release.py",
+    "source_sha256": "ffeb0c6b1bbb2ed4e6908bd17b295e2aa59a5047305e4a1f729f10a842ef9249"
+  },
+  "cora_bench/tests/test_value_match.py": {
+    "source": "cora_bench/tests/test_value_match.py",
+    "source_sha256": "4253d59f15e99782d22680a158933852871a8e2aa5db0afcca9ab9dee24836ff"
+  },
+  "cora_bench/utils/__init__.py": {
+    "source": "cora_bench/utils/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "cora_bench/utils/hashing.py": {
+    "source": "cora_bench/utils/hashing.py",
+    "source_sha256": "83913c8dba6f1056ff5bf2fc7e8bb22a38b9cd959757dbb75eb82776f2b9789f"
+  },
+  "cora_bench/utils/io.py": {
+    "source": "cora_bench/utils/io.py",
+    "source_sha256": "88bbdd72dcf554207cc01217fbdb93c5f5aa48db369d32fc1cd6ce785b4fabab"
+  },
+  "cora_bench/utils/seeds.py": {
+    "source": "cora_bench/utils/seeds.py",
+    "source_sha256": "4eb050b90dc9fe90074e45a04c8b6952591d4a5efe5b10e9665deaa7f07315ac"
+  }
+}

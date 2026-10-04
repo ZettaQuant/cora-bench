@@ -1,0 +1,302 @@
+{
+  "ff3aa0ab-8dff-4115-8365-0b734655b779": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "98c3ed66-a0b8-449d-91c4-46c3180f1367": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "44b5d8c0-9167-4d14-bfea-b3b40e97a4a7": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "23faf701-b0ed-4a10-bbc0-5c35e4f92f4b": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "5b14133c-cfd8-4ce5-b1c0-8ad1c82db5e2": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "97fd8606-86fa-4288-95fe-2a06776f3ba3": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "2055e62b-b511-4c79-bf2a-1408bb37fa8e": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "a13905f5-7ef9-423d-9a6b-3fd91f7be4bd": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "1da591e2-9b02-4e71-bcd0-d2a16bb12cfd": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "f606061e-dbf5-4fa9-8a90-08b326bd327e": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "83cac46c-dd52-4583-88a8-a3187841d0ff": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "ba348da2-ec43-45c3-ba92-cc0560e37bee": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "7182fb1c-7a74-4532-9a2b-0ec0b2508b87": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "64e38c31-e0d1-4ea8-8fac-72913e2f6e79": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "1559effb-ac3b-474a-87d2-b3d31895421f": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "fead16dd-a912-4507-89b9-ffdead0775dc": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "05a8ab3a-e34c-4952-ab5b-777a6d1ce88f": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "56db1411-155d-4ec4-9d94-e4a5ace46982": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "416dde7d-4717-4e2d-9414-09e309b24040": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "b5895a78-9b96-47d3-aa99-3cc3eb9fbaa1": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "599bf742-ef7c-496c-af9e-b8754da6e386": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "35152ebc-9260-414e-b2a4-69ce27f7264d": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "fb84c9a4-0b29-4b9a-a8cf-57ce81b518e7": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "d1710ae4-0478-460f-aed7-8b9b28fe4304": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "c7698324-ab7c-4ce2-b2ec-71667ce91c5d": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "bc4b22a4-d2a9-42de-866b-be7e77520e06": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "22b10030-ef4a-4ee8-aedf-571ee29845cf": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "4aaf4569-0b3e-47dd-a09f-81471541cc06": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "d43ccd9b-1f5f-4f04-9d02-9de44e425f58": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "f0d834cf-d803-4d7f-abdc-78cd1ca89143": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "cbcf55a1-4b3b-4e15-8dd0-1d29f5cade5a": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "f7c48b53-aa43-41e5-8ce9-2dc3f88e8d2a": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "b1d0f9ff-5c04-4c42-a124-379a977c573b": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "a507e5a3-dd8a-4580-a795-bd9286eb117c": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "5507ef78-6815-472c-a01c-f4e2048c2428": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "22adef00-f468-48f3-9a01-4ada12f5ecde": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "5beca4e1-fbfb-46c0-94a3-a6e60b9e21ec": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "accd2c66-34e2-4d44-a251-f9de84412696": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "3a27046e-41ea-4680-9a7f-1c52e2d2117b": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "9cca1139-05da-45b2-a7cf-c009d36dd5dc": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "dc1e2425-6f62-4fc8-a931-232d653cf8d0": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "61de2755-94e5-4bcf-972e-29b202f940b8": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "b791221a-b1bf-4d7c-aabd-74db473c58ec": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "878464c5-4129-4637-8312-9395beeef2ad": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "30e2ee72-d776-48bd-bb6c-4e83c4af5b0f": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "8ffb972a-5ebb-4309-b85a-9145a4454a3c": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "824115ac-b9bd-4d33-8852-dd08bd2e7738": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "ba12ce13-3f59-483e-b92c-adbe60b2f072": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "eb703e60-35aa-4363-bc3f-19afb44f877f": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "db24bce6-bcbe-4397-aee3-bafacea287a6": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "e567850f-20dc-404d-a192-9badec9ecf69": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "6feba85a-2941-4a66-9028-78b28ef81e0e": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "473c3336-8737-4c83-840c-2e7dabbeb6ea": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "2e35d3f3-db1a-47eb-b285-cb67ea2af8b6": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "4c2387e9-a434-41e6-9093-dca32d81655b": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "7ca2314a-9eaf-4a61-9dd4-64ab7f19c586": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "260808aa-4f73-4544-ba29-4c0d1275c13d": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "0cd877cc-436d-41da-8970-becc77cfabd9": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "039a5d13-0bb9-4fff-afcf-be51e4c96b99": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "a2cd1ed6-f115-4d88-88a1-975715365899": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "511a06e4-54dd-4d32-8c76-64cf7555cf82": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "6837ea92-9af7-49dc-810f-33a9b9d83548": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "bb3be977-dac7-4a94-beb1-ee667c48a4a6": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "114f0e80-42e2-4dae-ae00-f858a13e7fa5": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "02af76bb-9b93-4363-a56e-56cec355a2b6": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "2ad40bbc-52c2-4572-bbef-9f877b3a545a": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "17eb6a04-0994-47ff-87c3-02793144fe37": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "b90b374e-d139-47e4-b8c3-1f6bf81e3675": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "45c88b97-dd49-4684-8b29-29b2415c8770": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "b9cbc749-bc6b-49c9-8c38-4591141198c6": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "0ec23512-91bb-4f3a-91ea-4f4f7865e042": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "9d182dc2-d3e6-463c-a0d4-e08360354758": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "ce9e9185-c4d6-42ff-8806-59729e579103": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "e51a4edb-f35b-443f-9e7c-3d8ef9a9a72f": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  },
+  "407d0fe8-7501-4363-9334-098e0eefefc0": {
+    "prompt_template": "{docs}\n\n{instruction}\n\n{question}",
+    "instruction": "We kindly ask you to review the financial statements of the companies provided above and answer the following questions based solely on the information you have seen. If the question involves content not found in the financial statements, you may ignore this part and only answer the other parts."
+  }
+}

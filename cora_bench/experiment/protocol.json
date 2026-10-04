@@ -1,0 +1,109 @@
+{
+  "run_id": "reader_followup_20261002",
+  "seeds": [
+    5768,
+    78516,
+    944601
+  ],
+  "datasets": {
+    "babilong": {
+      "n": 500,
+      "budgets": [
+        32000,
+        64000,
+        128000
+      ]
+    },
+    "loong": {
+      "n": 75,
+      "budgets": [
+        32000,
+        64000,
+        128000
+      ]
+    },
+    "nolima": {
+      "n": 870,
+      "budgets": [
+        32000,
+        64000
+      ]
+    },
+    "longmemeval": {
+      "n": 500,
+      "budgets": [
+        32000,
+        64000
+      ]
+    }
+  },
+  "methods": [
+    "head_tail",
+    "bm25",
+    "dense",
+    "dense_rerank",
+    "llmlingua2",
+    "provence"
+  ],
+  "controls": [
+    "full_context",
+    "empty_context"
+  ],
+  "chunking": {
+    "tokenizer": "cl100k_base",
+    "size": 512,
+    "overlap": 64,
+    "order": "source_order",
+    "tables": "Original materialized text, no whitespace normalization or special table preservation; table diagnostics reported separately.",
+    "packing": "source-token union for BM25/dense/dense_rerank; unchanged text-transformer outputs; strict ranked prefix and actual cl100k cap"
+  },
+  "cohort_rule": "source_tokens > budget; full and empty controls on all examples; report paired common cohorts for cross-budget comparisons",
+  "models": {
+    "dense": "Qwen/Qwen3-Embedding-0.6B",
+    "reranker": "Qwen/Qwen3-Reranker-0.6B",
+    "llmlingua2": "microsoft/llmlingua-2-bert-base-multilingual-cased-meetingbank",
+    "provence": "naver/provence-reranker-debertav3-v1",
+    "reader": "gemini-2.5-flash-lite"
+  },
+  "reader": {
+    "temperature": 0,
+    "thinking_budget": 0,
+    "max_output_tokens": 1024,
+    "transport": "Vertex online streaming, fixed concurrency 8; all requests record TTFT and completion latency",
+    "identical_request_reuse": "Only identical query/context/config/seed; never reuse responses across seeds"
+  },
+  "selection_repeats": "Fresh complete deterministic selection; three-seed reproducibility/timing controls. Do not pretend deterministic duplicate masks are independent evidence samples.",
+  "uncertainty": {
+    "bootstrap_repetitions": 2000,
+    "confidence": 0.95,
+    "paired": true,
+    "nolima_cluster": "needle family; keep related placements/haystacks together",
+    "other_clusters": "question; stratify BABILong by task",
+    "seed_spread": "Report separately from question-sampling uncertainty"
+  },
+  "budget_usd": {
+    "total": 1000,
+    "reader_online": 600,
+    "judges": 180,
+    "online_smoke_latency": 40,
+    "gpu_vm": 100,
+    "cpu_vm": 30,
+    "storage_transfer": 20,
+    "contingency": 30
+  },
+  "prices_usd_per_million": {
+    "reader_online_input": 0.1,
+    "reader_online_output": 0.4,
+    "reader_batch_input": 0.05,
+    "reader_batch_output": 0.2
+  },
+  "pricing_source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+  "pricing_checked": "2026-10-02",
+  "local_outputs": "cora_bench/outputs/reader_followup_20261002",
+  "reporting": "Report native answer metrics separately from evidence retention, incomplete coverage explicitly, and cold/warm compute separately. Use native provider tokens for API cost.",
+  "latency_sample": {
+    "per_dataset_cell": 30,
+    "policy": "prespecified matched questions; fresh caches per budget; three seed runs; fixed hardware and batch size; separate from cached incremental selection timings"
+  },
+  "gcs_prefix": ""
+}
